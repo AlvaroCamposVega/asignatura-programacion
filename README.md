@@ -1,2 +1,2 @@
-# Ejercicios de la asignatura de programacion
+# Ejercicios de la asignatura de programación
 Ejercicios en Java de la asignatura de programación de 1º DAM
