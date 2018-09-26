@@ -11,8 +11,8 @@ public class Ejercicio1 {
     int x = 144;
     int y = 999;
     int suma = x + y;
-    int resta = y - x;
-    double division = (double)y / (double)x;
+    int resta = x - y;
+    int division = x / y;
     int multiplicacion = x * y;
     
     System.out.print("La variable x vale " + x);
