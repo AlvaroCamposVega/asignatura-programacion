@@ -17,8 +17,6 @@ public class Ejercicio12 {
 
     double ex2 = (double)((media - (ex1 * 0.4)) / 0.6);
     
-    // media = (ex1*0.4 + ex2*0.6) / 2
-    
     System.out.print("Para tener un " + media + " en el trimestre ");
     System.out.print("debes sacar un " + ex2 + " en el segundo examen");
   }

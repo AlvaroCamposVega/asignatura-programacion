@@ -7,20 +7,14 @@
 
 public class Ejercicio6 {
   public static void main(String[] args) {
-  
-	System.out.print("Introduzca lado A: ");
-    int lado1 = Integer.parseInt(System.console().readLine());
     
-    System.out.print("Introduzca lado B: ");
-    int lado2 = Integer.parseInt(System.console().readLine());
-    
-    System.out.print("Introduzca la base: ");
+    System.out.print("Introduzca la base en cm: ");
     int base = Integer.parseInt(System.console().readLine());
     
-    System.out.print("Introduzca la altura: ");
+    System.out.print("Introduzca la altura en cm: ");
     int altura = Integer.parseInt(System.console().readLine());
 
 	int area = ((base * altura) / 2);
-    System.out.println("El área del triángulo es " + area);
+    System.out.println("El área del triángulo es " + area + " cm2");
   }
 }
