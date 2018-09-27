@@ -11,10 +11,10 @@ public class Ejercicio2 {
 	double pesetas = 166.386;
   
 	System.out.print("Introduzca los euros que desea convertir: ");
-    double euros = Integer.parseInt(System.console().readLine());
+    double euros = Double.parseDouble(System.console().readLine());
 
     int conversion = (int)(euros * pesetas);
     System.out.print("Conversión realizada, usted recibe ");
-    System.out.print(conversion + " pesetas");
+    System.out.println(conversion + " pesetas");
   }
 }
