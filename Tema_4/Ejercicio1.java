@@ -11,29 +11,36 @@ public class Ejercicio1 {
 	System.out.print("Introduzce un día de la semana: ");
     String dia = System.console().readLine();
 
-	if (dia.equals("Lunes")) {
+	switch (dia) {
+
+		case "Lunes":
 		
-		System.out.print("a primera hora toca EED");
+			System.out.print("a primera hora toca EED");
+			break;
 		
-	} else if (dia.equals("Martes")) {
+		case "Martes":
 		
-		System.out.print("a primera hora toca SINF");
+			System.out.print("a primera hora toca SINF");
+			break;
 		
-	} else if (dia.equals("Miércoles")) {
+		case "Miércoles":
 		
-		System.out.print("a primera hora toca PRO");
+			System.out.print("a primera hora toca PRO");
+			break;
 		
-	} else if (dia.equals("Jueves")) {
+		case "Jueves":
 		
-		System.out.print("a primera hora toca PRO");
+			System.out.print("a primera hora toca PRO");
+			break;
 		
-	} else if (dia.equals("Viernes")) {
+		case "Viernes":
 		
-		System.out.print("a primera hora toca SINF");
+			System.out.print("a primera hora toca SINF");
+			break;
 		
-	} else {
+		default:
 		
-		System.out.print("Introduzca un día de la semana por favor");
+			System.out.print("Introduzca un día de la semana por favor");
 	}
   }
 }
