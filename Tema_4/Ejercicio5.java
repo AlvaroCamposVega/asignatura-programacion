@@ -16,9 +16,15 @@ public class Ejercicio5 {
     
     System.out.print("Introduce el valor de b: ");
     double valorB = Integer.parseInt(System.console().readLine());
-
-	double resultado = (0 - valorB) / valorA;
 	
-	System.out.print("x =  " + resultado);
+	if (valorA == 0) {
+	
+		System.out.print("Esa ecuación no tiene solución real");
+	
+	} else {
+		
+		double resultado = (0 - valorB) / valorA;
+		System.out.print("x = " + resultado);
+	}
   }
 }
