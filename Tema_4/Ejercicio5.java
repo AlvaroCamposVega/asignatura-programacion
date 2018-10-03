@@ -12,10 +12,10 @@ public class Ejercicio5 {
 	System.out.println("tipo ax + b = 0");
 	
 	System.out.print("Introduce el valor de a: ");
-    double valorA = Integer.parseInt(System.console().readLine());
+    double valorA = Double.parseDouble(System.console().readLine());
     
     System.out.print("Introduce el valor de b: ");
-    double valorB = Integer.parseInt(System.console().readLine());
+    double valorB = Double.parseDouble(System.console().readLine());
 	
 	if (valorA == 0) {
 	
