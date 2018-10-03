@@ -28,26 +28,26 @@ public class Ejercicio8 {
       double media = (nota1 + nota2 + nota3) / 3;
       System.out.println("La media de tus notas es " + media);
     
-    if (media < 5) {
+      if (media < 5) {
       
-      System.out.print("Boletín: Insuficiente");
+        System.out.print("Boletín: Insuficiente");
       
-    } else if (media < 6) {
+      } else if (media < 6) {
       
-      System.out.print("Boletín: Suficiente");
+        System.out.print("Boletín: Suficiente");
     
-    } else if (media < 7) {
+      } else if (media < 7) {
       
-      System.out.print("Boletín: Bien");
+        System.out.print("Boletín: Bien");
       
-    } else if (media < 9) {
+      } else if (media < 9) {
       
-      System.out.print("Boletín: Notable");
+        System.out.print("Boletín: Notable");
       
-    } else {
+      } else {
       
-      System.out.print("Boletín: Sobresaliente");
+        System.out.print("Boletín: Sobresaliente");
+      }
     }
-  }
   }
 }
