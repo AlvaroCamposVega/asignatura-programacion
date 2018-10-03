@@ -19,14 +19,14 @@ public class Ejercicio8 {
     System.out.print("Introduce la nota del tercer examen: ");
     double nota3 = Double.parseDouble(System.console().readLine());
   
-  if ((nota1 < 0 || nota2 < 0 || nota3 < 0) || (nota1 > 10 || nota2 > 10 || nota3 > 10)) {
+    if ((nota1 < 0 || nota2 < 0 || nota3 < 0) || (nota1 > 10 || nota2 > 10 || nota3 > 10)) {
     
-    System.out.print("Las notas no pueden ser menores que 0 o mayores que 10");
+      System.out.print("Las notas no pueden ser menores que 0 o mayores que 10");
     
-  } else {
+    } else {
   
-    double media = (nota1 + nota2 + nota3) / 3;
-    System.out.println("La media de tus notas es " + media);
+      double media = (nota1 + nota2 + nota3) / 3;
+      System.out.println("La media de tus notas es " + media);
     
     if (media < 5) {
       
