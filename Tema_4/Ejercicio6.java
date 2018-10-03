@@ -24,7 +24,7 @@ public class Ejercicio6 {
 		
 		double tiempo = Math.sqrt((2 * altura) / gravedad);
 		
-		System.out.print("El objeto tardará " + tiempo + " segundos en caer");
+		System.out.printf("El objeto tardará %.2f segundos en caer", tiempo);
 	}
 	
   }
