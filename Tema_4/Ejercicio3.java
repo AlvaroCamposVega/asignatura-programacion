@@ -11,37 +11,46 @@ public class Ejercicio3 {
 	System.out.print("Introduzce un número del 1 al 7: ");
     int num = Integer.parseInt(System.console().readLine());
 
-	if (num == 1) {
+	switch (num) {
+
+		case 1:
 		
-		System.out.print("Lunes");
+			System.out.print("Lunes");
+			break;
 		
-	} else if (num == 2) {
+		case 2:
 		
-		System.out.print("Martes");
+			System.out.print("Martes");
+			break;
 		
-	} else if (num == 3) {
+		case 3:
 		
-		System.out.print("Miércoles");
+			System.out.print("Miércoles");
+			break;
 		
-	} else if (num == 4) {
+		case 4:
 		
-		System.out.print("Jueves");
+			System.out.print("Jueves");
+			break;
 		
-	} else if (num == 5) {
+		case 5:
 		
-		System.out.print("Viernes");
+			System.out.print("Viernes");
+			break;
 		
-	} else if (num == 6) {
+		case 6:
 		
-		System.out.print("Sábado");
+			System.out.print("Sábado");
+			break;
 		
-	} else if (num == 7) {
+		case 7:
 		
-		System.out.print("Domingo");
+			System.out.print("Domingo");
+			break;
 		
-	} else {
+		default:
 		
-		System.out.print("Introduzca un número del 1 al 7 por favor");
+			System.out.print("Introduzca un número del 1 al 7 por favor");
 	}
   }
 }
