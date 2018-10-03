@@ -15,7 +15,7 @@ public class Ejercicio10 {
     
     System.out.print("Ahora el mes con palabras: ");
     String mes = System.console().readLine();
-    System.out.println();
+    System.out.println(); // Salto de línea
     
     // COMPROBACIONES
     if (dia <= 0 || dia > 31) {
