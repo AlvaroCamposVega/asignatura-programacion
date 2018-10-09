@@ -54,15 +54,15 @@ public class Ejercicio24 {
       double IRPF = (double)(sueldoBruto * 0.20);
       double sueldoNeto = (double)(sueldoBruto - IRPF);
       
-      System.out.println("#################################");
-      System.out.printf("# %-22s %3.2f \n", "Sueldo base", (double)sueldoBase);
-      System.out.printf("# %-22s %3.2f \n", "Dietas (" + dias + " viajes)", viajes);
-      System.out.println("#################################");
-      System.out.printf("# %-22s %3.2f \n", "Sueldo bruto", sueldoBruto);
-      System.out.printf("# %-22s %3.2f \n", "Retención IRPF (20%)", IRPF);
-      System.out.println("#################################");
-      System.out.printf("# %-22s %3.2f \n", "Sueldo neto", sueldoNeto);
-      System.out.print("#################################");
+      System.out.println("###################################");
+      System.out.printf("# %-22s %8.2f %-1s \n", "Sueldo base", (double)sueldoBase, "#");
+      System.out.printf("# %-22s %8.2f %-1s \n", "Dietas (" + dias + " viajes)", viajes, "#");
+      System.out.println("###################################");
+      System.out.printf("# %-22s %8.2f %-1s \n", "Sueldo bruto", sueldoBruto, "#");
+      System.out.printf("# %-22s %8.2f %-1s \n", "Retención IRPF (20%)", IRPF, "#");
+      System.out.println("###################################");
+      System.out.printf("# %-22s %8.2f %-1s \n", "Sueldo neto", sueldoNeto, "#");
+      System.out.print("###################################");
     }
   }
 }
