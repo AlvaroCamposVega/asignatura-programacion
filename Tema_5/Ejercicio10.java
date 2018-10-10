@@ -21,6 +21,7 @@ public class Ejercicio10 {
       suma += numero;
     }
     
+    cuenta -= 1;
     suma -= numero;
     int media = suma / cuenta;
     

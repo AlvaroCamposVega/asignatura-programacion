@@ -12,12 +12,22 @@ public class Ejercicio11 {
     System.out.print("Introduce un número entero: ");
     int numero = Integer.parseInt(System.console().readLine());
     
-    int eliminar = 10000;
+    int cifra = 1;
+    int digitos = 0;
+    
+    do {
+      
+      cifra *= 10;
+      digitos++;
+      
+    } while (numero >= cifra);
+    
+    int eliminar = cifra / 10;
     int ultimoNumero = 0;
     int cuad = 0;
     int cubo = 0;
     
-    for (int i = 0; i <= 4; i++) {
+    for (int i = 0; i < digitos; i++) {
       
       ultimoNumero = (numero / eliminar) % 10;
       cuad = ultimoNumero * ultimoNumero;
