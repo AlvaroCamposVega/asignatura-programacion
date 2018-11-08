@@ -34,9 +34,9 @@ public class Ejercicio6 {
       }
     }
     
-    for (int i = 0; i < 15; i++) {
+    for (int elemento : numeros) {
       
-      System.out.print(numeros[i] + " ");
+      System.out.print(elemento + " ");
     }
   }
 }
