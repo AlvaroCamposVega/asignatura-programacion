@@ -55,17 +55,12 @@ public class Ejercicio2 {
     
     int total = 0;
     
-    for (int fila = 0; fila < 4; fila++) { // Sumatorio total fila
+    for (int fila = 0; fila < 4; fila++) { // total
       
       total += num[fila][5];
     }
     
-    for (int columna = 0; columna < 5; columna++) { // Sumatorio total columna
-      
-      total += num[4][columna];
-    }
-    
-    num[4][5] = total; // Sumatorio total
+    num[4][5] = total;
     
     System.out.println("\n----------------------------------------------");
     
@@ -103,7 +98,7 @@ public class Ejercicio2 {
             
             Thread.sleep(500);
             
-            System.out.printf("%-5d %-8s", num[fila][columna], "SumTotal\n");
+            System.out.printf("%-5d %-8s", num[fila][columna], "TOTAL\n");
           }
           
         } else { // Pinta las casillas del array
