@@ -10,7 +10,6 @@ public class Ejercicio3 {
   public static void main(String[] args){
     
     int num[][] = new int[5][6];
-    int contador = 1;
     
     System.out.println("Se van a generar 20 números aleatorios:\n");
     
@@ -21,8 +20,6 @@ public class Ejercicio3 {
         int numero = (int)(Math.random() * 899) + 100;
         
         num[fila][columna] = numero;
-        
-        contador++;
       }
     }
     
