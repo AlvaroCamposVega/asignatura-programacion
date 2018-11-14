@@ -68,15 +68,6 @@ public class Ejercicio2 {
       
       for (int columna = 0; columna < 6; columna++) { // En cada casilla pinta
         
-        if (fila == 4) {
-        
-          Thread.sleep(1000);
-          
-        } else {
-          
-          Thread.sleep(500);
-        }
-        
         /*if (columna == 0) {
           
           System.out.print("   ");
@@ -89,14 +80,10 @@ public class Ejercicio2 {
         } else if (columna == 5) { // Pinta Sumatorio de la fila o el total
           
           if (fila < 4) { // Sumatorio fila si la fila no es la última
-            
-            Thread.sleep(500);
           
             System.out.printf("%-5d %-9s", num[fila][columna], "SumFila " + fila);
           
           } else { // Sumatorio total en la última fila
-            
-            Thread.sleep(500);
             
             System.out.printf("%-5d %-8s", num[fila][columna], "TOTAL\n");
           }
