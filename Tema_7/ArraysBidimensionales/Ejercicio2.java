@@ -9,7 +9,7 @@
 */
 
 public class Ejercicio2 {
-  public static void main(String[] args) throws InterruptedException{
+  public static void main(String[] args){
     
     int num[][] = new int[5][6];
     int contador = 1;
