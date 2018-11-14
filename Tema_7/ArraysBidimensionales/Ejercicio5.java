@@ -44,7 +44,7 @@ public class Ejercicio5 {
       }
     }
     
-    for (int fila = 0; fila < 6; fila++) { // Encontrar máximo y mínimo
+    for (int fila = 0; fila < 6; fila++) { // Pintar array y mostrar maximo y minimo
       
       for (int columna = 0; columna < 10; columna++) {
         
