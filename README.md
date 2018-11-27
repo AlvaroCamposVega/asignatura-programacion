@@ -9,5 +9,5 @@ Ejercicios en Java de la asignatura de programación de 1º DAM
 * [Tema 4](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_4)
 * [Tema 5](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_5)
 * [Tema 6](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_6)
-* [Tema 7](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/Tema_7)
-* [Tema 8](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/Tema_8)
+* [Tema 7](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7)
+* [Tema 8](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/biblioMatematicas)
