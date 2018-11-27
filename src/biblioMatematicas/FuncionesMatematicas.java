@@ -242,7 +242,7 @@ public class FuncionesMatematicas {
 	
 	return Integer.parseInt(numeroNuevo);
   }
-  
+
   //EJERCICIO 12 #################################################################
   /**
    * Añade un dígito a un número por delante
