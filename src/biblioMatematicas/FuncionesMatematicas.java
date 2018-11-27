@@ -228,7 +228,7 @@ public class FuncionesMatematicas {
 		
 	return (voltea(numeroVolteado / cifra));
   }
-
+  
   //EJERCICIO 11 #################################################################
   /**
    * Añade un dígito a un número por detrás
