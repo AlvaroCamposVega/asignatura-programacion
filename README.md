@@ -10,6 +10,6 @@ Ejercicios en Java de la asignatura de programación de 1º DAM
 * [Tema 5](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_5)
 * [Tema 6](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_6)
 * [Tema 7](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7)
-  * [Tema 7](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7/ArraysUnaDimension)
-  * [Tema 7](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7/ArraysBidimensionales)
+  * [Arrays de Una Dimension](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7/ArraysUnaDimension)
+  * [Arrays Bidimensionales](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7/ArraysBidimensionales)
 * [Tema 8](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/biblioMatematicas)
