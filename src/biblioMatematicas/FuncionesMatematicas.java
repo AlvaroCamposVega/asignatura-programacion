@@ -12,9 +12,11 @@ public class FuncionesMatematicas {
 	  
 	Scanner s = new Scanner(System.in);
     
-    int numero = Integer.parseInt(s.nextLine());
-    int digito = Integer.parseInt(s.nextLine());
-    System.out.print(pegaPorDelante(numero, digito));
+    int numero1 = Integer.parseInt(s.nextLine());
+    int numero2 = Integer.parseInt(s.nextLine());
+    //int fin = Integer.parseInt(s.nextLine());
+    
+    System.out.print(juntaNumeros(numero1, numero2));
   }
   
   // FUNCIONES #################################################################
@@ -255,6 +257,39 @@ public class FuncionesMatematicas {
 	String numeroNuevo = String.valueOf(digito) + String.valueOf(numero);
 	
 	return Integer.parseInt(numeroNuevo);
+  }
+  
+  //EJERCICIO 13 #################################################################
+  /**
+   * Devuelve el trozo de un número dada la posición inicial y final
+   * @param Número entero
+   * @param Número entero que representa la posición inicial
+   * @param Número entero que representa la posición final
+   * @return El trozo del número
+   */
+  public static int trozoDeNumero(int numero, int inicio, int fin) {
+	
+	return quitaPorDetras(quitaPorDelante(numero, inicio), fin - 1);
+  }
+  
+  //EJERCICIO 14 #################################################################
+  /**
+   * Pega dos números para formar uno
+   * @param 1er número entero
+   * @param 2º número entero
+   * @return Los dos números pegados
+   */
+  public static int juntaNumeros(int numero1, int numero2) {
+	
+	int digitos = digitos(numero2);
+	int resultado = numero1;
+	  
+	for (int i = 0; i < digitos; i++) {
+		 
+		 resultado = pegaPorDetras(resultado, digitoN(numero2, i));
+	}
+	  
+	return resultado;
   }
   
   /**
