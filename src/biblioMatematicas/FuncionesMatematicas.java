@@ -1,5 +1,4 @@
 package biblioMatematicas;
-import java.util.Scanner;
 
 /*
 *
@@ -8,19 +7,7 @@ import java.util.Scanner;
 */
 
 public class FuncionesMatematicas {
-  public static void main(String[] args){
-	  
-	Scanner s = new Scanner(System.in);
-    
-    int numero1 = Integer.parseInt(s.nextLine());
-    int numero2 = Integer.parseInt(s.nextLine());
-    //int fin = Integer.parseInt(s.nextLine());
-    
-    System.out.print(juntaNumeros(numero1, numero2));
-  }
-  
-  // FUNCIONES #################################################################
-  
+	
   //EJERCICIO 1 #################################################################
   /**
    * Devuelve verdadero si un número es capicúa y falso si no
@@ -292,6 +279,7 @@ public class FuncionesMatematicas {
 	return resultado;
   }
   
+  //#################################TIRAR DADO Y ALEATORIO ################################
   /**
    * Devuelve un número entre 1 y 6
    * 
