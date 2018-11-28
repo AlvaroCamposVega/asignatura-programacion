@@ -164,7 +164,7 @@ public class MenuFunciones {
 					break;
 			}
 			
-			System.out.println();
+			System.out.print("\n");
 		}
 	}
 
