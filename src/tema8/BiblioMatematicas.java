@@ -1,4 +1,4 @@
-package biblioMatematicas;
+package tema8;
 
 /*
 *
@@ -6,7 +6,7 @@ package biblioMatematicas;
 *
 */
 
-public class FuncionesMatematicas {
+public class BiblioMatematicas {
 	
   //EJERCICIO 1 #################################################################
   /**
