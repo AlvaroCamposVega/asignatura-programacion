@@ -201,4 +201,19 @@ public class BiblioArrays {
 									
 			return arrayRotado;
 		}
+		
+		// IMPRIMIR ARRAY #################################################################
+		/**
+		* Imprime un aray en consola
+		* @param Array
+		*/
+		public static void imprimeArray(int[]arrayA) {
+			
+			for (int i = 0; i < arrayA.length; i++) {
+				
+				System.out.print(arrayA[i] + " ");
+			}
+			
+			System.out.println();
+		}
 }
