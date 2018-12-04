@@ -1,32 +1,6 @@
 package tema8;
 
-import java.util.Scanner;
-
 public class BiblioArrays {
-
-	public static void main(String[] args) {
-
-		Scanner s = new Scanner(System.in);
-		
-		System.out.print("Introduce un número");
-		int tamano = Integer.parseInt(s.nextLine());
-		System.out.print("Introduce un número");
-		int min = Integer.parseInt(s.nextLine());
-		System.out.print("Introduce un número");
-		int max = Integer.parseInt(s.nextLine());
-		
-		int[] prueba = generaArrayInt(tamano, min, max);
-		
-		for (int i = 0; i < prueba.length; i++) {
-			
-			System.out.print(prueba[i] + " ");
-		}
-		
-		System.out.println("\nIntroduce numero buscado: ");
-		int numero = Integer.parseInt(s.nextLine());
-		
-		System.out.println(posicionEnArray(prueba, numero));
-	}
 	
 	// EJERCICIO 20 #################################################################
 	/**
@@ -136,23 +110,95 @@ public class BiblioArrays {
 		 * @param Número que se quiere buscar
 		 * @return Posición del número en el array
 		 */
-				public static int posicionEnArray(int[] arrayN, int numero) {
+		public static int posicionEnArray(int[] arrayN, int numero) {
 					
-					if (estaEnArrayInt(arrayN, numero)) {
+			if (estaEnArrayInt(arrayN, numero)) {
 					
-						for (int i = 0; i < arrayN.length; i++) {
+				for (int i = 0; i < arrayN.length; i++) {
 							
-							if (arrayN[i] == numero) {
+					if (arrayN[i] == numero) {
 								
-								return i;
-							}
-						}
-						
-						return -1;
+						return i;
 					}
-						
-					return -1;
 				}
-					
+						
+				return -1;
+			}
+						
+			return -1;
+		}
+				
+		// EJERCICIO 26 #################################################################
+		/**
+		 * Le da la vuelta a un array
+		 * @param Array
+		 * @return Array volteado
+		 */
+		public static int[] volteaArrayInt(int[] arrayN) {
 
+			int[] arrayVolteado = new int[arrayN.length];
+					
+			for (int i = 0; i < arrayN.length; i++) {
+
+				arrayVolteado[i] = arrayN[arrayN.length - (i + 1)];
+			}
+					
+			return arrayVolteado;
+		}
+		
+		// EJERCICIO 27 #################################################################
+		/**
+		* Rota N posiciones a la izquierda los números de un array
+		* @param Array
+		* @param Número de posiciones a rotar
+		* @return Array rotado
+		*/
+		public static int[] rotaIzquierdaArrayInt(int[] arrayN, int numero) {
+			
+			int[] arrayAux = arrayN;
+			int[] arrayRotado = new int[arrayAux.length];
+							
+			for (int i = 0; i < numero; i++) {
+				
+				int auxiliar = arrayAux[0];
+
+				for (int j = 0; j < arrayAux.length - 1; j++) {
+
+					arrayRotado[j] = arrayAux[j + 1];
+				}
+				
+				arrayRotado[arrayRotado.length - 1] = auxiliar;
+				arrayAux = arrayRotado;
+			}
+							
+			return arrayRotado;
+		}
+		
+		// EJERCICIO 28 #################################################################
+		/**
+		* Rota N posiciones a la derecha los números de un array
+		* @param Array
+		* @param Número de posiciones a rotar
+		* @return Array rotado
+		*/
+		public static int[] rotaDerechaArrayInt(int[] arrayN, int numero) {
+					
+			int[] arrayAux = arrayN;
+			int[] arrayRotado = new int[arrayAux.length];
+									
+			for (int i = 0; i < numero; i++) {
+						
+				int auxiliar = arrayAux[arrayAux.length - 1];
+
+				for (int j = (arrayAux.length - 1); j > 0; j--) {
+
+					arrayRotado[j] = arrayAux[j - 1];
+				}
+						
+				arrayRotado[0] = auxiliar;
+				arrayAux = arrayRotado;
+			}
+									
+			return arrayRotado;
+		}
 }
