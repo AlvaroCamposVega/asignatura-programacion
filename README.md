@@ -12,4 +12,5 @@ Ejercicios en Java de la asignatura de programación de 1º DAM
 * [Tema 7](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7)
   * [Arrays de Una Dimension](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7/ArraysUnaDimension)
   * [Arrays Bidimensionales](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/Tema_7/ArraysBidimensionales)
-* [Tema 8](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/biblioMatematicas)
+* [Tema 8](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/tema8)
+  * [Biblioteca de funciones Arrays](https://github.com/AlvaroCamposVega/asignatura-programacion/tree/master/src/tema8/BiblioArrays.java)
