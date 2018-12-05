@@ -1,27 +1,23 @@
 package tema8;
 
-import java.util.Scanner;
-
 public class BiblioArraysBi {
 	
-	public static void main(String[] args) {
+	// IMPRIMIR ARRAY BIDIMENSIONAL #################################################################
+	/**
+	* Imprime un array bidimensional en consola
+	* @param Array Bi Array bidimensional
+	*/
+	public static void pintaArrayBi(int[][] arrayN) {
 		
-		Scanner s = new Scanner(System.in);
-		
-		int[][] arrayA = generaArrayBiInt(3, 2, 1, 10);
-		
-		for (int fila = 0; fila < 3; fila++) {
+		for (int fila = 0; fila < arrayN.length; fila++) {
 			
-			for (int columna = 0; columna < 2; columna++) {
+			for (int columna = 0; columna < arrayN[0].length; columna++) {
 				
-				System.out.print(arrayA[fila][columna] + " ");
+				System.out.print(arrayN[fila][columna] + " ");
 			}
 		
 			System.out.println();
 		}
-		
-		System.out.println();
-		System.out.println(arrayA.length);
 	}
 	
 	// EJERCICIO 29 #################################################################
@@ -45,6 +41,30 @@ public class BiblioArraysBi {
 		}
 		
 		return arrayRd;
+	}
+	
+	// EJERCICIO 30 #################################################################
+	/**
+	* Devuelve la fila de un array
+	* @param Fila Fila del array
+	* @param Array Array
+	* @return Array Array con los valores de la fila
+	*/
+	public static int[] filaDeArrayBiInt(int fila, int[][] arrayN) {
+		
+		if (fila > arrayN.length - 1) {
+			
+			return new int[]{-1};
+		}
+		
+		int[] arrayA = new int[arrayN.length];
+			
+		for (int i = 0; i < arrayN.length; i++) {
+				
+			arrayA[i] = arrayN[fila][i]; 
+		}
+			
+		return arrayA;
 	}
 
 }

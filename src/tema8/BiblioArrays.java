@@ -160,14 +160,14 @@ public class BiblioArrays {
 							
 			for (int i = 0; i < numero; i++) {
 				
-				int auxiliar = arrayAux[0];
+				arrayRotado = new int[arrayAux.length];
 
 				for (int j = 0; j < arrayAux.length - 1; j++) {
 
 					arrayRotado[j] = arrayAux[j + 1];
 				}
 				
-				arrayRotado[arrayRotado.length - 1] = auxiliar;
+				arrayRotado[arrayRotado.length - 1] = arrayAux[0];
 				arrayAux = arrayRotado;
 			}
 							
@@ -207,7 +207,7 @@ public class BiblioArrays {
 		* Imprime un array en consola
 		* @param Array Array
 		*/
-		public static void imprimeArray(int[]arrayA) {
+		public static void pintaArray(int[]arrayA) {
 			
 			for (int i = 0; i < arrayA.length; i++) {
 				
