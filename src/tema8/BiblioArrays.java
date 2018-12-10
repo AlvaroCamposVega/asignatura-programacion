@@ -2,6 +2,21 @@ package tema8;
 
 public class BiblioArrays {
 	
+	// IMPRIMIR ARRAY #################################################################
+	/**
+	* Imprime un array en consola
+	* @param Array Array
+	*/
+	public static void pintaArray(int[]arrayA) {
+				
+		for (int i = 0; i < arrayA.length; i++) {
+					
+			System.out.print(arrayA[i] + " ");
+		}
+				
+		System.out.println();
+	}
+	
 	// EJERCICIO 20 #################################################################
 	/**
 	 * Genera un array de tamaño n con números aleatorios
@@ -200,20 +215,5 @@ public class BiblioArrays {
 			}
 									
 			return arrayRotado;
-		}
-		
-		// IMPRIMIR ARRAY #################################################################
-		/**
-		* Imprime un array en consola
-		* @param Array Array
-		*/
-		public static void pintaArray(int[]arrayA) {
-			
-			for (int i = 0; i < arrayA.length; i++) {
-				
-				System.out.print(arrayA[i] + " ");
-			}
-			
-			System.out.println();
 		}
 }
