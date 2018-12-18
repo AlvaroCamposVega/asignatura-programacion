@@ -20,10 +20,10 @@ public class BiblioArrays {
 	// EJERCICIO 20 #################################################################
 	/**
 	 * Genera un array de tamaño n con números aleatorios
-	 * @param Tamaño Tamaño del array
-	 * @param Mínimo Mínimo del intervalo de los números aleatorios
-	 * @param Máximo Máximo del intervalo
-	 * @return Un array de N tamaño con números aleatorios
+	 * @param Número Tamaño del array
+	 * @param Número Mínimo del intervalo de los números aleatorios
+	 * @param Número Máximo del intervalo
+	 * @return Array Un array de N tamaño con números aleatorios
 	 * comprendidos entre MIN y MAX
 	 */
 	public static int[] generaArrayInt(int tamano, int min, int max) {
@@ -42,7 +42,7 @@ public class BiblioArrays {
 		/**
 		 * Devuelve el mínimo de un array
 		 * @param Array Array
-		 * @return El mínimo del array
+		 * @return Número El mínimo del array
 		 */
 		public static int minimoArrayInt(int[] arrayN) {
 			
@@ -63,7 +63,7 @@ public class BiblioArrays {
 		/**
 		 * Devuelve el máximo de un array
 		 * @param Array Array
-		 * @return El máximo del array
+		 * @return Número El máximo del array
 		 */
 		public static int maximoArrayInt(int[] arrayN) {
 					
@@ -84,7 +84,7 @@ public class BiblioArrays {
 		/**
 		 * Devuelve la media de un array
 		 * @param Array Array
-		 * @return La media del array
+		 * @return Número La media del array
 		 */
 		public static double mediaArrayInt(int[] arrayN) {
 							
@@ -103,7 +103,7 @@ public class BiblioArrays {
 		 * Dice si un número está dentro del array
 		 * @param Array Array
 		 * @param Número Número que se quiere buscar
-		 * @return True si el número existe
+		 * @return Boolean True si el número existe
 		 */
 		public static boolean estaEnArrayInt(int[] arrayN, int numero) {
 			
@@ -123,7 +123,7 @@ public class BiblioArrays {
 		 * Busca un número y devuelve su posición en el array
 		 * @param Array Array
 		 * @param Número Número que se quiere buscar
-		 * @return Posición del número en el array
+		 * @return Número Posición del número en el array
 		 */
 		public static int posicionEnArray(int[] arrayN, int numero) {
 					
@@ -147,7 +147,7 @@ public class BiblioArrays {
 		/**
 		 * Le da la vuelta a un array
 		 * @param Array Array
-		 * @return Array volteado
+		 * @return Array Array volteado
 		 */
 		public static int[] volteaArrayInt(int[] arrayN) {
 
@@ -166,7 +166,7 @@ public class BiblioArrays {
 		* Rota N posiciones a la izquierda los números de un array
 		* @param Array Array
 		* @param Número Número de posiciones a rotar
-		* @return Array rotado
+		* @return Array Array rotado
 		*/
 		public static int[] rotaIzquierdaArrayInt(int[] arrayN, int numero) {
 			
@@ -194,7 +194,7 @@ public class BiblioArrays {
 		* Rota N posiciones a la derecha los números de un array
 		* @param Array Array
 		* @param Número Número de posiciones a rotar
-		* @return Array rotado
+		* @return Array Array rotado
 		*/
 		public static int[] rotaDerechaArrayInt(int[] arrayN, int numero) {
 					
