@@ -42,4 +42,10 @@ public class Caballo {
 		this.tonoPiel = tonoPiel;
 	}
 
+	@Override
+	public String toString() {
+		
+		return "Caballo [nombre=" + nombre + ", sexo=" + sexo + ", tonoPiel=" + tonoPiel + "]";
+	}
+
 }
