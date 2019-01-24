@@ -16,7 +16,7 @@ public class Ejercicio3 {
 		Scanner s = new Scanner(System.in);
 		ArrayList<Integer> a = new ArrayList<Integer>();
 		
-		System.out.println("A continuación vas a introducir 10 números enteros.");
+		System.out.println("A continuación vas a introducir 10 números enteros");
 		
 		for (int i = 0; i < 10; i++) {
 			
