@@ -91,12 +91,17 @@ public class Carta implements Comparable<Carta> {
     }
 
     public int compareTo(Carta c) {
+        
+        if (this.palo.compareTo(c.getPalo()) == 0) {
+           
+            return this.numero.compareTo(c.getNumero());
+        }
 
         return this.palo.compareTo(c.getPalo());
     }
 
     public boolean equals(Carta c) {
-
+        
         return this.palo.equals(c.getPalo());
     }
 

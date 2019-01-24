@@ -1,6 +1,7 @@
 package tema10.ejercicio9;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /*
 *
@@ -41,7 +42,7 @@ public class Ejercicio9 {
             a.add(c);
         }
 
-        a.sort(null);
+        Collections.sort(a);
 
         for (Carta b : a) {
 
