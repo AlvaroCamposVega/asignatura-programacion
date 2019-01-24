@@ -1,4 +1,5 @@
 package tema10;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 /*
@@ -11,22 +12,22 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Scanner s = new Scanner(System.in);
-		ArrayList<Integer> a = new ArrayList<Integer>();
-		
-		System.out.println("A continuación vas a introducir 10 números enteros");
-		
-		for (int i = 0; i < 10; i++) {
-			
-			System.out.print("Introduce un número entero: ");
-			a.add(Integer.parseInt(s.nextLine()));
-		}
-		
-		System.out.println("\n" + a);
-		a.sort(null);
-		System.out.println(a);
-	}
+        Scanner s = new Scanner(System.in);
+        ArrayList<Integer> a = new ArrayList<Integer>();
+
+        System.out.println("A continuación vas a introducir 10 números enteros");
+
+        for (int i = 0; i < 10; i++) {
+
+            System.out.print("Introduce un número entero: ");
+            a.add(Integer.parseInt(s.nextLine()));
+        }
+
+        System.out.println("\n" + a);
+        a.sort(null);
+        System.out.println(a);
+    }
 
 }

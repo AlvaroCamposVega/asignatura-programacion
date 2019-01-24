@@ -13,38 +13,38 @@ import java.util.ArrayList;
 
 public class Ejercicio8 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		ArrayList<Carta> a = new ArrayList<Carta>();
-		Carta c = new Carta();
-		a.add(c);
-		boolean e;
-		
-		for (int i = 0; i < 9; i++) {
-			
-			e = true;
-			
-			while (e) { // Hacemos que la nueva carta no sea repetida
-				
-				e = false;
-				c = new Carta();
-				
-				for (Carta b : a) {
-					
-					if (b.equals(c)) {
-						
-						e = true;
-					}
-				}
-			}
-			
-			a.add(c);
-		}
-		
-		for (Carta b : a) {
-			
-			System.out.println(b);
-		}
-	}
+        ArrayList<Carta> a = new ArrayList<Carta>();
+        Carta c = new Carta();
+        a.add(c);
+        boolean e;
+
+        for (int i = 0; i < 9; i++) {
+
+            e = true;
+
+            while (e) { // Hacemos que la nueva carta no sea repetida
+
+                e = false;
+                c = new Carta();
+
+                for (Carta b : a) {
+
+                    if (b.equals(c)) {
+
+                        e = true;
+                    }
+                }
+            }
+
+            a.add(c);
+        }
+
+        for (Carta b : a) {
+
+            System.out.println(b);
+        }
+    }
 
 }

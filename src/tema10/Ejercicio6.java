@@ -16,57 +16,55 @@ import java.util.Scanner;
 *
 */
 
-
 public class Ejercicio6 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Scanner s = new Scanner(System.in);
-		int o = 3;
-		HashMap<String, String> h = new HashMap<String, String>();
-		
-		h.put("alvaro", "1234");
-		h.put("popeye", "1");
-		h.put("nick", "hola");
-		h.put("x", "y");
-		
-		while (o > 0) {
-		
-			System.out.print("Introduce un nombre de usuario: ");
-			String user = s.nextLine().toLowerCase();
-			
-			System.out.print("Introduce una contraseña: ");
-			String passwd = s.nextLine().toLowerCase();
-			System.out.println();
-			
-			if (h.containsKey(user) && h.containsValue(passwd)) {
-				
-				if (h.get(user).equals(passwd)) {
-					
-					System.out.println("Ha accedido al área restringida");
-					o = 0;
-					
-				} else {
-					
-					o -= 1;
-					
-					if (o == 0) {
-						
-						System.out.println("Lo siento, no tiene acceso al área restringida");
-					}
-				}
-				
-			} else {
-				
-				o -= 1;
-				
-				if (o == 0) {
-					
-					System.out.println("Lo siento, no tiene acceso al área restringida");
-				}
-			}
-		}
-		
-	}
+        Scanner s = new Scanner(System.in);
+        int o = 3;
+        HashMap<String, String> h = new HashMap<String, String>();
+
+        h.put("alvaro", "1234");
+        h.put("popeye", "1");
+        h.put("nick", "hola");
+        h.put("x", "y");
+
+        while (o > 0) {
+
+            System.out.print("Introduce un nombre de usuario: ");
+            String user = s.nextLine().toLowerCase();
+
+            System.out.print("Introduce una contraseña: ");
+            String passwd = s.nextLine().toLowerCase();
+            System.out.println();
+
+            if (h.containsKey(user) && h.containsValue(passwd)) {
+
+                if (h.get(user).equals(passwd)) {
+
+                    System.out.println("Ha accedido al área restringida");
+                    o = 0;
+
+                } else {
+
+                    o -= 1;
+
+                    if (o == 0) {
+
+                        System.out.println("Lo siento, no tiene acceso al área restringida");
+                    }
+                }
+
+            } else {
+
+                o -= 1;
+
+                if (o == 0) {
+
+                    System.out.println("Lo siento, no tiene acceso al área restringida");
+                }
+            }
+        }
+    }
 
 }

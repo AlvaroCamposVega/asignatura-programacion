@@ -13,22 +13,22 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Scanner s = new Scanner(System.in);
-		ArrayList<String> a = new ArrayList<String>();
-		
-		System.out.println("A continuación vas a introducir 10 palabras.");
-		
-		for (int i = 0; i < 10; i++) {
-			
-			System.out.print("Introduce una palabra: ");
-			a.add(s.nextLine());
-		}
-		
-		System.out.println("\n" + a);
-		a.sort(null);
-		System.out.println(a);
-	}
+        Scanner s = new Scanner(System.in);
+        ArrayList<String> a = new ArrayList<String>();
+
+        System.out.println("A continuación vas a introducir 10 palabras.");
+
+        for (int i = 0; i < 10; i++) {
+
+            System.out.print("Introduce una palabra: ");
+            a.add(s.nextLine());
+        }
+
+        System.out.println("\n" + a);
+        a.sort(null);
+        System.out.println(a);
+    }
 
 }

@@ -17,29 +17,29 @@ import java.util.ArrayList;
 
 public class Ejercicio7 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		ArrayList<Moneda> a = new ArrayList<Moneda>();
-		
-		Moneda m = new Moneda();
-		a.add(m);
-		
-		for (int i = 0; i < 5; i++) {
-			
-			m = new Moneda();
-			
-			while (!m.getValor().equals(a.get(i).getValor()) && !m.getPosicion().equals(a.get(i).getPosicion())) {
-				
-				m = new Moneda();
-			}
-			
-			a.add(m);
-		}
-		
-		for (Moneda b : a) {
-			
-			System.out.println(b);
-		}
-	}
+        ArrayList<Moneda> a = new ArrayList<Moneda>();
+
+        Moneda m = new Moneda();
+        a.add(m);
+
+        for (int i = 0; i < 5; i++) {
+
+            m = new Moneda();
+
+            while (!m.getValor().equals(a.get(i).getValor()) && !m.getPosicion().equals(a.get(i).getPosicion())) {
+
+                m = new Moneda();
+            }
+
+            a.add(m);
+        }
+
+        for (Moneda b : a) {
+
+            System.out.println(b);
+        }
+    }
 
 }

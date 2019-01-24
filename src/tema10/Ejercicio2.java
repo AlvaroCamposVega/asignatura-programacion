@@ -1,4 +1,5 @@
 package tema10;
+
 import java.util.ArrayList;
 
 import tema8.*;
@@ -14,22 +15,22 @@ import tema8.*;
 
 public class Ejercicio2 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		ArrayList<Integer> a = new ArrayList<Integer>();
-		int tamano = BiblioMatematicas.aleatorio(10, 20);
-		
-		for (int i = 0; i < tamano; i++) {
-			
-			a.add(BiblioMatematicas.aleatorio(0, 100));
-			System.out.println(a.get(i));
-		}
-		
-		System.out.println("-----------------------");
-		System.out.println("Suma: " + BiblioArrayList.suma(a));
-		System.out.println("Media: " + BiblioArrayList.media(a));
-		System.out.println("Máximo: " + BiblioArrayList.maximo(a));
-		System.out.println("Mínimo: " + BiblioArrayList.minimo(a));
-	}
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        int tamano = BiblioMatematicas.aleatorio(10, 20);
+
+        for (int i = 0; i < tamano; i++) {
+
+            a.add(BiblioMatematicas.aleatorio(0, 100));
+            System.out.println(a.get(i));
+        }
+
+        System.out.println("-----------------------");
+        System.out.println("Suma: " + BiblioArrayList.suma(a));
+        System.out.println("Media: " + BiblioArrayList.media(a));
+        System.out.println("Máximo: " + BiblioArrayList.maximo(a));
+        System.out.println("Mínimo: " + BiblioArrayList.minimo(a));
+    }
 
 }
