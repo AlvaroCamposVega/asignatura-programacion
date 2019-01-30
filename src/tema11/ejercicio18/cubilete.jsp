@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="tema11.biblio.BiblioMatematicas"%>
+<%@ page import="tema11.ejercicio18.biblio.BiblioMatematicas"%>
 <!DOCTYPE html>
 <html>
 <head>
