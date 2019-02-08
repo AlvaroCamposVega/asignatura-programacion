@@ -3,17 +3,17 @@ package tema9.poo_en_java.ejercicio1;
 public class Caballo {
 	
 	private String nombre;
-	private String sexo;
+	private Sexo sexo;
 	private String tonoPiel;
 
 	public Caballo() {
 		
 	}
 	
-	public Caballo(String nombre, String sexo, String tonoPiel) {
+	public Caballo(String nombre, Sexo sexo, String tonoPiel) {
 		
 		this.nombre = nombre;
-		this.sexo = sexo.toLowerCase();
+		this.sexo = sexo;
 		this.tonoPiel = tonoPiel.toLowerCase();
 	}
 
@@ -27,7 +27,7 @@ public class Caballo {
 		return "A " + nombre + " Le gusta mucho que le acaricies";
 	}
 
-	public void setSexo(String sexo) {
+	public void setSexo(Sexo sexo) {
 		
 		this.sexo = sexo;
 	}
@@ -45,7 +45,7 @@ public class Caballo {
 	@Override
 	public String toString() {
 		
-		return "Caballo [nombre=" + nombre + ", sexo=" + sexo + ", tonoPiel=" + tonoPiel + "]";
+		return nombre + " Es " + sexo + " y tiene un tono de piel " + tonoPiel;
 	}
 
 }
